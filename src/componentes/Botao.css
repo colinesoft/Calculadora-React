@@ -1,0 +1,42 @@
+:root {
+    --largura: 80px;
+    --altura: var(--largura);
+    --amarelo: rgb(228, 210, 73);
+    --cinza: rgb(229, 226, 226);
+    --branco: rgb(255,255,255);
+}
+
+button{
+    cursor: pointer;
+    width: var(--largura);
+    height: var(--altura);
+    border-radius: 50%;
+    border: none;
+    font-family:monospace;
+    font-size: 2.6em;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: darkgray;
+}
+
+button:hover{
+    background-color: var(--cinza);
+    color: var(--branco);
+}
+
+.amarelo{
+    background-color: var(--amarelo);
+    color: var(--branco);
+}
+
+.cinza{
+    background-color: var(--cinza);
+}
+
+.btnDuplo{
+    border-top-right-radius: calc(var(--largura) / 2);
+    border-top-left-radius:  calc(var(--largura) / 2);
+    border-bottom-right-radius:  calc(var(--largura) / 2);
+    border-bottom-left-radius:  calc(var(--largura) / 2);
+    width: calc(var(--largura) * 2);
+}

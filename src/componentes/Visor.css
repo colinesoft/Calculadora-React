@@ -1,0 +1,10 @@
+.visor{
+    background-color:#131212;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 20px;    
+    text-align: right;
+    color: white;
+    font-size: 4em;
+    padding-right: 10px;
+}
